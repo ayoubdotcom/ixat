@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ixat.ixat">
+
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--
+            <receiver android:name="com.example.android.MyBroastcastReceiver">
+                <intent-filter>
+                    <action android:name="android.intent.action.BOOT_COMPLETED" />
+                </intent-filter>
+            </receiver>
+            -->
+        </activity>
+        <activity
+            android:name=".AccueilActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GamesActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".publicityActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".ChoixJeuActivity" />
+        <activity android:name=".ManagerActivity" />
+
+        <service android:name=".FloatingViewService" />
+
+    </application>
+
+</manifest>

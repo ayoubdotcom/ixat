@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "593155398423",
+    "firebase_url": "https://ixat-23ee6.firebaseio.com",
+    "project_id": "ixat-23ee6",
+    "storage_bucket": "ixat-23ee6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593155398423:android:aaae50bbf19f9118",
+        "android_client_info": {
+          "package_name": "ixat.ixat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593155398423-esq0dp1c50hqc4m7unjjudkl4gcair8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhTpP9BYtYaREyKhNGjtP7JIrD5GCk0As"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593155398423:android:0f4c145acd8fca19",
+        "android_client_info": {
+          "package_name": "victor.forum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593155398423-esq0dp1c50hqc4m7unjjudkl4gcair8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhTpP9BYtYaREyKhNGjtP7JIrD5GCk0As"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
